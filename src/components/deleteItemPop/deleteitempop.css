@@ -1,0 +1,26 @@
+.btn1{
+    background-color: white; /* Green */
+    border: 2px solid #4d6cfa;
+    color: #4d6cfa;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 20px;
+}
+
+.btn2{
+    background-color: white; /* Green */
+    border: none;
+    color: red;
+    border: 1px solid red;
+    padding: 12px 46px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 20px;
+}

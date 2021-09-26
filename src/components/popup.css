@@ -1,0 +1,107 @@
+
+.background{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.8);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.pop{
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.2);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    border-radius: 4px;
+}
+
+.pr{
+    font-size: 1.6rem;
+    background: rgb(70, 80, 209);
+    color: white;
+    width: 1000px;
+    height: 32px;
+    border-radius: 4px 4px 0 0;
+    padding: 4px 0px;
+}
+.dishoptions{
+    position: relative;
+    display: flex;
+    height: 350px;
+    width: 1000px;
+    justify-content: space-around;
+    padding-top: 25px;
+    font-size: 2rem;
+
+}
+.option{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.optiontitle{
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(243, 226, 226);
+    font-weight: 600;
+    width: 250px;
+    height: 25px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+.radiooption{
+    margin: 4px;
+}
+
+.options{
+    height: 300px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.options::-webkit-scrollbar {
+    display: none;
+  }
+
+.qqtyy{
+    position: relative;
+    top: 14px;
+}
+
+.cc{
+    position: relative;
+    bottom: 14px;
+    margin: 4px;
+}
+.cnf{
+    position: relative;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #4d6cfa; 
+    color: white;
+    padding: 4px 20px;
+    font-size: 2rem;
+    margin-right: 40px;
+}
+
+.cnl{
+    position: relative;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: red; 
+    margin-left: 20px;
+    color: white;
+    padding: 4px 40px;
+    font-size: 2rem;
+}

@@ -1,0 +1,49 @@
+.popbillerror{
+    width: 500px;
+    height: 240px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.2);
+    background: white;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    border-radius: 2px;
+}
+.err{
+    background-color: red;
+    color: white;
+    width: 500px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 12px;
+}
+.error{
+    color: red;
+    height: 160px;
+    width: 500px;
+}
+
+
+.questionmark{
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.ok > button{
+    background-color: grey; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 40px;
+}
+

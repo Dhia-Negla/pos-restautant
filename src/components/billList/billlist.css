@@ -1,0 +1,85 @@
+.billlistpop{
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.2);
+    background: white;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.bluebar{
+    background-color: #4d6cfa;
+    width: 1000px;
+    height: 8px;
+}
+
+
+.selectdate{
+    display: flex;
+    color: black;
+    margin-top: 10px;
+}
+
+.datepicker{
+    padding: 5px;
+    border: solid 1.5px;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 130px;
+}
+
+.fromto{
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.totalcash{
+    font-size: 2rem;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    background-color: black;
+    color: chartreuse;
+}
+
+
+.btn{
+    background-color: #4d6cfa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0 30px;
+    margin-left: 20px;
+}
+
+.billlistclose{
+    position: absolute;
+    font-size: 2.3rem;
+    right: 0px;
+    top: 15px;
+    border-radius: 18px;
+}
+
+.pickachoice{
+    display: flex;
+    color: black;
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 980px;
+    justify-content: space-between;
+}
+.billtable{
+    display: flex;
+    color: white;
+    padding: 10px;
+    background-color: #4d6cfa;
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 980px;
+    justify-content: space-between;
+}

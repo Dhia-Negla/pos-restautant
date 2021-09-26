@@ -1,0 +1,28 @@
+.butt {
+  background-color: #052555; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 2px;
+  width: 167px;
+  height: 48px;
+  border-radius: 4px;
+  font-size: 1.42rem;
+}
+
+.totamount{
+  background-color: wheat;
+  color: rgb(61, 61, 61);
+  margin: 2px 2px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.7rem;
+  width: 18.5%;
+}
+
+.footericons{
+  position: relative;
+  top: 3px;
+}
